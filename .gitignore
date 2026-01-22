@@ -1,0 +1,12 @@
+# Node
+node_modules/
+.next/
+out/
+
+# Java
+target/
+*.log
+
+# OS
+.DS_Store
+
