@@ -12,7 +12,7 @@ export default function Home() {
         />
         <div className="text-left ml-65 my-75 relative z-10">
           <h1 className="text-7xl font-bold text-white">Baylor University <br/> Innovation Fellows</h1>
-          <p className="mt-4 text-white font-light text-2xl">Bringing Innovative Ideas to Baylor University</p>
+          <p className="mt-4 text-white font-light text-2xl">Bringing Innovative Ideas to Baylor Universityy</p>
         </div>
       </div>
 
