@@ -16,17 +16,17 @@ export default function Home() {
         </div>
       </div>
 
-        <div className="h-screen flex flex-col gap-6 items-center justify-start pt-16 mx-auto bg-white">
+        <div className="h-screen flex flex-col items-center justify-center pt-8 mx-auto mt-16 bg-white w-full">
             <h2 className={"text-black text-7xl font-extrabold"}>OUR MISSION & IMPACT</h2>
-            <p>We are revolutionizing the landscape of Baylor University with innovative <br/>projects and research that seek to shape the future of higher education.</p>
-            <div className="flex flex-row justify-start items-start gap-40">
+            <p className={"mt-4 mb-8 text-center"}>We are revolutionizing the landscape of Baylor University with innovative <br/>projects and research that seek to shape the future of higher education.</p>
+            <div className="flex flex-row justify-center items-center gap-24 w-full px-16 mt-16">
                 <div className="flex flex-col gap-4 items-start justify-start">
                     <StatItem number={"7"} label={"Fellows"}/>
                     <StatItem number={"10+"} label={"Industry and University Partners"}/>
                     <StatItem number={"5"} label={"Stakeholder Meetings"}/>
                     <StatItem number={"$25k+"} label={"Raised for cohorts and project investment"}/>
                 </div>
-                <img src={"cohort01.png"} className="h-200 self-start -mt-40" alt="cohort01" />
+                <img src={"Screenshot 2026-02-15 at 4.47.53 PM.png"} className={"h-150"}/>
             </div>
         </div>
     </main>
