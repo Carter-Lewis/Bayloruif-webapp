@@ -4,7 +4,7 @@ import TestimonialCarousel from "@/components/TestimonialCarousel";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center flex-col">
+    <main className="min-h-screen flex items-center justify-center flex-col overflow-x-hidden">
       <div
         className="hero h-screen w-screen relative"
         style={{
