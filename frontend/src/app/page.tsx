@@ -1,5 +1,6 @@
 import StatItem from "@/components/StatItem";
 import ProjectCard from "@/components/ProjectCard";
+import TestimonialCarousel from "@/components/TestimonialCarousel";
 
 export default function Home() {
   return (
@@ -82,6 +83,24 @@ export default function Home() {
             <img src="BU_BrandMark_HSB.png" alt="HSB Brand Mark" className={"h-12.5 w-auto object-contain"} />
             <img src="BU_BrandMark_ECS.png" alt="ECS Brand Mark" className={"h-12.5 w-auto object-contain"} />
           </div>
+        </div>
+      </div>
+      <div className="h-screen flex flex-col items-center justify-center pt-8 mx-auto mt-16 bg-white w-full relative"
+        style={{
+          backgroundImage: "url('baylor-campus-bsb.jpg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center 0%",
+        }}
+      >
+        <div
+          className="absolute inset-0 pointer-events-none"
+          style={{
+        background: "rgba(0, 0, 0, 0.5)",
+          }}
+        />
+        <div className="relative z-10 w-1/2 flex flex-col justify-center">
+          <h1 className="text-white text-7xl mb-16">Testimonials</h1>
+          <TestimonialCarousel />
         </div>
       </div>
     </main>
